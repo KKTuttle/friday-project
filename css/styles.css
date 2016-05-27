@@ -29,6 +29,7 @@ body {
   border: 5px ridge #D9853B;
   background-color: #74AFAD;
 }
+
 img {
   width:800px;
   height:600px;
@@ -78,23 +79,22 @@ img {
 .container {
   width:100%;
 }
-.sidebar1{
+.col-sm-4 {
+  background-color: #D9853B;
+}
+
+.sidebar1 {
   float: left;
   background-color: #D9853B;
 }
 
-}
-.sidebar2{
-
+.sidebar2 {
   float: left;
-  background-color: #D9853B;
+  background-color:#D9853B;
 }
-.sidebar3{
+.sidebar3 {
   float: right;
   background-color: #D9853B;
-}
-
-
 }
 
 .howtocontact {
