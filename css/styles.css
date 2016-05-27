@@ -1,6 +1,24 @@
 .carousel {
-  min-height: 500px;
+  height: 430px;
+  overflow: hidden;
 }
-img {
-  width:650px
-  heigh:550px}
+img.slide {
+  width:650px;
+  height:430px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 650px;
+      margin: auto;
+  }
+.carousel-caption {
+  color:hotpink;
+  font-size: 30px;
+  font-family: Montserrat;
+}
+
+.col-md-4 {
+  padding:5px;
+  margin-top: 10px;
+}
