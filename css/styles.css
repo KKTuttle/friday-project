@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 body {
   background-color:#558C89;
+  font-family: Montserrat;
 }
 
 /*@media(min-width:0) {
@@ -19,8 +21,7 @@ body {
         color: #D9853B;
         background-color: black;
         font-size: 28px;
-
-    }
+}
 .container-fluid {
   background-color: #D9853B;
 }
@@ -50,9 +51,9 @@ img {
 .col-md-4 {
   font-size: 20px;
   padding:5px;
-  margin-top: 10px;
+  margin-top: 1px;
   color: black;
-  font-style: italic;
+  font-style: normal;
   background-color: #74AFAD;
   border: 10px ridge #D9853B;
   text-indent: 10px;
@@ -62,6 +63,7 @@ img {
   margin: 10px;
   padding:5px;
   background-color: #D9853B;
+  border: 10px groove #D9853B;
   height: 400px;
 }
 .me {
@@ -74,13 +76,20 @@ img {
   background-color: #D9853B;
   padding:10px;
   margin-left:10px;
-
+  text-align: justify;
+  font-size: 20px;
 }
 .container {
   width:100%;
+
+}
+.row {
+  border: 5px ridge #D9853B;
+  background-color: #D9853B;
+  font-family:Montserrat;
+  height:auto;
 }
 .col-sm-4 {
-  background-color: #D9853B;
 }
 
 .sidebar1 {
@@ -98,8 +107,9 @@ img {
 }
 
 .howtocontact {
-  width:30%;
+  margin-right: 10px;
   margin-left: 10px;
+  border: 10px ridge #D9853B;
 }
 pre {
   font-family:Montserrat;
