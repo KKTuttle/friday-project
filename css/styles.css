@@ -1,9 +1,33 @@
 body {
-  background-color:lightsteelblue;
+  background-color:#558C89;
+}
 
+/*@media(min-width:0) {
+    .navbar-default {
+      font-size: 20px;
+        border-color: transparent;
+        background-color: #D9853B;
+        color:#D9853B;
+    }*/
+
+.navbar-default .nav {
+  background-color: #D9853B;
+  font-size: 20px;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav >li.active > a:focus {
+        color: #D9853B;
+        background-color: black;
+        font-size: 28px;
+
+    }
+.container-fluid {
+  background-color: #D9853B;
 }
 .carousel {
   overflow: hidden;
+  border: 5px ridge #D9853B;
+  background-color: #74AFAD;
 }
 img {
   width:800px;
@@ -11,7 +35,7 @@ img {
 }
 
 .carousel-inner img {
-     width: 800px; /* Set width to 100% */
+     width: 800px;
      margin: auto;
      height:600px;
  }
@@ -26,6 +50,59 @@ img {
   font-size: 20px;
   padding:5px;
   margin-top: 10px;
-  color: yellow;
+  color: black;
   font-style: italic;
+  background-color: #74AFAD;
+  border: 10px ridge #D9853B;
+  text-indent: 10px;
+  text-align: justify;
+}
+.aboutme {
+  margin: 10px;
+  padding:5px;
+  background-color: #D9853B;
+  height: 400px;
+}
+.me {
+ width: auto;
+ margin-right: 10px;
+ height: 100%;
+ float: left;
+}
+.vpravo {
+  background-color: #D9853B;
+  padding:10px;
+  margin-left:10px;
+
+}
+.container {
+  width:100%;
+}
+.sidebar1{
+  float: left;
+  background-color: #D9853B;
+}
+
+}
+.sidebar2{
+
+  float: left;
+  background-color: #D9853B;
+}
+.sidebar3{
+  float: right;
+  background-color: #D9853B;
+}
+
+
+}
+
+.howtocontact {
+  width:30%;
+  margin-left: 10px;
+}
+pre {
+  font-family:Montserrat;
+  color: #D9853B;
+  font-size: 20px;
 }
