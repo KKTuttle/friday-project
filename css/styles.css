@@ -4,27 +4,22 @@ body {
   font-family: Montserrat;
 }
 
-/*@media(min-width:0) {
-    .navbar-default {
-      font-size: 20px;
-        border-color: transparent;
-        background-color: #D9853B;
-        color:#D9853B;
-    }*/
-
 .navbar-default .nav {
   background-color: #D9853B;
   font-size: 20px;
 }
+
 .navbar-default .nav > li.active > a,
 .navbar-default .nav >li.active > a:focus {
         color: #D9853B;
         background-color: black;
         font-size: 28px;
 }
+
 .container-fluid {
   background-color: #D9853B;
 }
+
 .carousel {
   overflow: hidden;
   border: 5px ridge #D9853B;
@@ -48,7 +43,7 @@ img {
   font-family: Montserrat;
 }
 
-.col-md-4 {
+.stlpec {
   font-size: 20px;
   padding:5px;
   margin-top: 1px;
@@ -64,12 +59,14 @@ img {
   padding:5px;
   background-color: #D9853B;
   border: 10px groove #D9853B;
-  height: 400px;
+  height: 350px;
+  width: 98%;
 }
 .me {
  width: auto;
  margin-right: 10px;
  height: 100%;
+ padding:5px;
  float: left;
 }
 .vpravo {
@@ -81,38 +78,27 @@ img {
 }
 .container {
   width:100%;
-
 }
+
 .row {
   border: 5px ridge #D9853B;
   background-color: #D9853B;
   font-family:Montserrat;
   height:auto;
 }
-.col-sm-4 {
-}
-
-.sidebar1 {
-  float: left;
-  background-color: #D9853B;
-}
-
-.sidebar2 {
-  float: left;
-  background-color:#D9853B;
-}
-.sidebar3 {
-  float: right;
-  background-color: #D9853B;
-}
 
 .howtocontact {
   margin-right: 10px;
   margin-left: 10px;
   border: 10px ridge #D9853B;
+  width:100%;
 }
 pre {
   font-family:Montserrat;
   color: #D9853B;
   font-size: 20px;
+}
+
+.projektStlpec {
+  padding: 5px;
 }
