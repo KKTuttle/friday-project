@@ -14,6 +14,7 @@ My website
 
 * **Katarina Karolcikova/Tuttle**
 https://github.com/KKTuttle
+http://kktuttle.github.io/friday-project
 
 ## License
 
